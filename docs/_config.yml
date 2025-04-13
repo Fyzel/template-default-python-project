@@ -5,4 +5,4 @@ plugins:
 title: [ template-default-python-project ]
 description: [ Template for a GitHub Python project ]
 
-show_downloads: [ false ]
+show_downloads: false
