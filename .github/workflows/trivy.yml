@@ -1,14 +1,16 @@
-name: build
+name: Trivy
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
+  workflow_dispatch:
 jobs:
   build:
     permissions:
       contents: read
       pull-requests: write
+      security-events: write
     name: Build
     runs-on: ubuntu-22.04
     steps:
